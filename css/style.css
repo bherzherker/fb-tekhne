@@ -16,6 +16,11 @@ body {
     font-weight: normal;
     background: #f0f2f5;
 }
+
+.main-container {
+    
+}
+
 .login-sheet {
     padding: 210px;
 }
@@ -92,7 +97,7 @@ body {
 
 .content-right form input:focus {
     border:1px solid #1877f2;
-    background:#f0f2f5;
+    background:white;
 
 }
 
