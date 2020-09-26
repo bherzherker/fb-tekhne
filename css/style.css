@@ -45,8 +45,8 @@ body {
 }*/
 
 .fblogo {
-    height: 106px;
-    margin: 28px;
+    height: 110px;
+    margin: 0;
 }
 
 .content-left h2{
@@ -68,9 +68,9 @@ body {
     background: white;
     padding: 15px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.52);
-    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.52);
-    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.52);
+    box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.52);
     margin-bottom: 30px;
 }
 
@@ -83,10 +83,17 @@ body {
     padding: 0 15px;
     margin-bottom: 15px;
 }
-
+/*
 .content-right form input:hover{
-    border: 2px solid #1c1e21;
+    border: 2px solid #1877f2;
     background: #f0f2f5;
+    
+}*/
+
+.content-right form input:focus {
+    border:1px solid #1877f2;
+    background:#f0f2f5;
+
 }
 
 .pressButton{
@@ -108,12 +115,12 @@ body {
     display: inline-block;
     margin-top: 5px;
     padding: 0 17px;
-    background: #4cd137;
+    background: #42b72a;
    
 }
 
 .create-account a:hover {
-    background: #44bd32;
+    background: #41AD2A;
 }
 
 .forgot a{
