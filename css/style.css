@@ -42,6 +42,7 @@ body {
 
 .content-left{
     max-width: 500px;
+    margin: 0 0 0 -100px;
 }
 /*
 .content-left h1{
@@ -180,16 +181,37 @@ body {
 }
 
 /*footer*/
-
+/*
 .footer {
     background: white;
+    width: 980px;
 }
-
+*/
 #footersubdiv {
     background: white;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
-  }
+    
+    
+}
+
+.foot-opc {
+    width: 1500px;
+    height: 350px;
+    background: white;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.divisory2 {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    text-align: center;
+    margin: 10px 20px 10px 450px; 
+
+}
 
 #languagediv,
 #extralinksdiv {
